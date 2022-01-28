@@ -8,3 +8,7 @@ float32[4] q			    # Quaternion rotation from the FRD body frame to the NED eart
 float32[4] delta_q_reset 	# Amount by which quaternion has changed during last reset
 uint8 quat_reset_counter	# Quaternion reset counter
 
+float32 roll
+float32 pitch
+float32 yaw
+
